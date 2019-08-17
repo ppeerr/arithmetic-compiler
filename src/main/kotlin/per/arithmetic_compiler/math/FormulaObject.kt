@@ -1,0 +1,3 @@
+package per.arithmetic_compiler.math
+
+interface FormulaObject
