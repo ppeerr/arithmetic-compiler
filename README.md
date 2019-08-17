@@ -1,19 +1,16 @@
 # arithmetic-compiler
 
-Нужно сделать простой компилятор арифметических выражений.
+Need to make a simple compiler of arithmetic expressions.
 
-Программа получает на вход строку вида n1 operation n2 operation n3
-n1, n2, n3 это целые числа от 0 до 9, числа от 10 в качестве входных значений поддерживать не нужно.
+The program receives an input string of <n1 operation n2 operation n3>
+n1, n2, n3 are integers from 0 to 9.
+operation is addition, subtraction, multiplication or division.
 
-operation это сложение, вычитание, умножение и деление.
+For example, I pass the line 1 + 2 * 3 and expect to see 7 in the answer.
 
-Например, я передаю строку 1+2*3 и ожидаю увидеть в ответе 7.
-
-Скобки мы не поддерживаем, операции выполняются в стандартном математическом порядке.
-В принципе интерфейс взаимодействия не обязателен (можешь сделать cli, если хочешь), но мы будем смотреть на тесты и запускать наверное даже не будем. Тесты соответственно обязательны. Можешь взять любой фрэймворк тестирования и язык, в котором ты чувствуешь себя комфортно.
-
-Нельзя использовать готовые решения и регулярные выражения.
-
-Давай договоримся, что делить на ноль нельзя.
-Чисел может быть бесконечно много. Давай наша бесконечность закончится на 100-ом члене.
-Требований к точности вещественных числел нет.
+- We do not support brackets; operations are performed in the standard mathematical order.
+- The interaction interface is not necessary. Tests are required. 
+- Ready-made solutions and regular expressions cannot be used.
+- Let's agree that it is impossible to divide by zero.
+- There can be infinitely many numbers. Let our infinity end on the 100th member.
+- There are no requirements for the accuracy of real numbers.
