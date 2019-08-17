@@ -14,3 +14,6 @@ For example, I pass the line 1 + 2 * 3 and expect to see 7 in the answer.
 - Let's agree that it is impossible to divide by zero.
 - There can be infinitely many numbers. Let our infinity end on the 100th member.
 - There are no requirements for the accuracy of real numbers.
+
+P.S.
+Reverse Polish notation used.
